@@ -16,17 +16,7 @@ h2 {
 
 
 
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-display: flex;
-h2 {
-    color: #843e69;
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
+
     position:center
 }
 .about img {
@@ -42,4 +32,40 @@ p {
     font-size: 20px;
     padding: 20px;
     
+}
+h1 {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 60%;
+    object-fit: round
+    ;
+}
+
+.text {
+    max-width: 500px;
+
+
+
+}
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a0447d;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
 }
