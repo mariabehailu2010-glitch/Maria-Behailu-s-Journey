@@ -68,4 +68,13 @@ a {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-attachment: scroll;
+}
+
+/* Alt text: Soft blue geometric pattern made of layered triangles and shapes, forming a subtle abstract wallpaper. The design is calm and airy, with pale blue tones and gentle symmetry. The overall mood is peaceful, modern, and clean. */
+body {
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.LNdjWGPIbKN_P-GEyCIm0AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-position: center;
 }
